@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "44831592560",
+    "firebase_url": "https://pacetrade-d6ed8.firebaseio.com",
+    "project_id": "pacetrade-d6ed8",
+    "storage_bucket": "pacetrade-d6ed8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44831592560:android:01e6c9b9a799b820",
+        "android_client_info": {
+          "package_name": "com.example.pacetrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44831592560-iakmc9hqusbf3eed9gmmroeert48rskj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pacetrade",
+            "certificate_hash": "5b381d255521b0861ecc94c66cbbfad9080ec456"
+          }
+        },
+        {
+          "client_id": "44831592560-5ettpq4mu98rrnbqt7hatnjiqcdic4es.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pacetrade",
+            "certificate_hash": "589c1e1dd39fbbbd0f3ca92a9cd9bf278169c308"
+          }
+        },
+        {
+          "client_id": "44831592560-ls2sn9jmk57bauu3f6kljgu38efek02j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdl8TDxtGDRQBQJX-jTSy8_9B4xFxGCio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44831592560-ls2sn9jmk57bauu3f6kljgu38efek02j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

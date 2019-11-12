@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wbg"
+    tools:context=".activities.InventoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/tradeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/inventory"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="wrap_content"
+            android:layout_height="7dp"
+            android:layout_below="@+id/tradeTV"
+            android:layout_margin="15dp"
+            android:background="@drawable/wline" />
+
+        <TextView
+            android:id="@+id/userUploadText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/line"
+            android:layout_marginTop="10dp"
+            android:text="@string/useritemupload"
+            android:textColor="@color/lightgrey"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/uploadItemName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/userUploadText"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/wedittext"
+            android:hint="@string/nameOfItem"
+            android:textColor="@color/lightgrey"
+            android:textColorHint="@color/lightgrey"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/chooseFile"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/uploadItemName"
+            android:background="@drawable/greybtn"
+            android:text="@string/choosebtn"
+            android:textColor="@color/grey" />
+
+        <ImageView
+
+            android:id="@+id/demoImage"
+            android:layout_width="250dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/chooseFile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/uploadhelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/uploadFile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/uploadhelp"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:fontFamily="serif" />
+
+        <Button
+            android:id="@+id/uploadFile"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/bottom_nav"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/wclrbtnw"
+            android:text="@string/uploaditem"
+            android:textColor="@color/white" />
+
+
+
+
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bottom_nav"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#404041"
+            app:menu="@menu/bottom_navigation">
+
+        </android.support.design.widget.BottomNavigationView>
+
+    </RelativeLayout>
+
+</LinearLayout>
