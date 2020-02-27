@@ -1,38 +1,31 @@
 # Barter Bucket
+A college-centric marketplace where students can post items that they possess and are willing to trade using method of bartering.
 
-Signup and please enter Firstname Lastname and E-mail
-Click on Signup 
+## Demo:
+https://youtu.be/vYl0Y8WXEVY
 
-Check your mailbox for email and verify it.
+## Modules:
 
-Sign in to the application using verified E-mail
+### Login/Registration : 
+Users should be able to create an account for your application and log into their account once they’ve registered.
 
-The home page now shows all the items uploaded by registered users excluding the current logged in user.
-search items of your interest using the search bar.
+### User Profile : 
+Each user should have a profile. At a bare minimum, it should contain the user’s first name, last name, email address,graduation year and their reputation on the app.
 
-click on any of the item to view its details.
-You can add a review as well.
-click the device back button to go back from this screen.
+### Inventory : 
+Each user should have access to an inventory screen where they can add and remove items or services that they have available to trade.
 
-Initiate a chat with the uploader by clicking on chat button, fix the meetings spot and discuss about the item.
-The chat can be seen by the uploader user by clicking the last icon under the bottom nav in his app.
+### Trade Feed : 
+A standard, scrollable feed that lists item that are currently available to be traded for.
 
-The "plus" icon in the middle of the bottom Navigation bar lets you add an item/product. 
-Add a name, upload an image of item and click upload
-wait unitl its done.
+### Item Search : 
+A place for users to enter in a specific item that they’re looking for and be presented with a list of who is selling the specified item and other information about the seller/item that might be relevant.
 
-Head over to the second icon in th bottom nav and all the uploaded items by the user are seen here.
-Long press on any item to get options.
+### Item Reviews : 
+A tool that allows users to provide feedback on items they’ve traded for. Whenever other users come across the selected item, either through search or by viewing it in a user’s inventory, they should be able to see whatever reviews the item has.
 
-click on the second last icon(users icon) to get list of all users registered in the app.
-click on a user to start chat.
+### Chatting :
+Users should be able to chat with other registered users and discuss on the items available for trade.
 
-Go to profile(second icon) and click on edit icon to update profile details.
-Next to the edit icon is logout icon for logging out the app.
-
-Once both users decide to trade the item . 
-Each can go to their profiles(by clicking the profile icon , second icon in bottom bar) and long press on the item to be traded and mark them as out of stock.
-
-The item is listed as out of stock while viewing its details(head to home and click on the item to view details).
-
-
+## Authors
+* **Ansley Rodrigues** - *Initial work* - (https://github.com/ansleyr2)
