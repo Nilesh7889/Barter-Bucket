@@ -28,4 +28,4 @@ A tool that allows users to provide feedback on items they’ve traded for. When
 Users should be able to chat with other registered users and discuss on the items available for trade.
 
 ## Authors
-* **Nilesh Sisodiya** - *Initial work* - (https://github.com/Nilesh7889)
+* **Nilesh Sisodiya** **Ansley Rodriguez** - *Initial work* - (https://github.com/Nilesh7889)
